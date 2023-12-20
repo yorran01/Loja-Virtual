@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Shoes</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+<body>
+<header>
+    <div class="nav container">
+        <a href="#" class="logo">Loja</a>
+        <i class='bx bx-shopping-bag' id="cart-icon"></i>
+    </div>
+    <div class="cart">
+      <h2 class="cart-title">Seu carrinho</h2>
+      <div class="cart-content">
+        <div class="cart-box">
+          <img src="./img/adidas.jpg" alt="" class="cart-img">
+          <div class="detail-box">
+            <div class="cart-produt-title">ADIDAS</div>
+            <div class="cart-prece">R$300.00</div>
+            <input type="number" value="1" class="cart-quantidade">
+          </div>
+          <!--Remover cart-->
+          <i class='bx bxs-trash-alt cart-remove'></i>
+        </div>
+        <!--Total-->
+        <div class="total">
+          <div class="total-title">Total</div>
+          <div class="total-preci">R$0</div>
+        </div>
+        <!--btn-compra-->
+        <button type="button" class="btn-compra">Comprar</button>
+      </div>
+      <!--fechar-carrinho-->
+      <i class='bx bx-x' id="close"></i>
+
+     </div>
+</header>
+<section class="shop container">
+   <h2 class="shop-text"> Web Shoes</h2>
+   <div class="shop-content">
+    <!--box 1-->
+    <div class="produto-box">
+      <img src="./img/adidas.jpg" alt="tenis-adidas" class="produtos">
+      <h2 class="produto-titulo">Adidas</h2>
+      <span class="preco">R$ 350,00</span>
+      <i class='bx bx-shopping-bag add-carrinho' ></i>
+    </div>
+    <!--box 2-->
+    <div class="produto-box">
+        <img src="./img/lacoste.jpg" alt="Lacoste" class="produtos">
+        <h2 class="produto-titulo">Lacoste</h2>
+        <span class="preco">R$ 400,00</span>
+        <i class='bx bx-shopping-bag add-carrinho' ></i>
+      </div>
+      <!--box 3-->
+      <div class="produto-box">
+        <img src="./img/streetshoes.jpg" alt="ks street" class="produtos">
+        <h2 class="produto-titulo">Ks street</h2>
+        <span class="preco">R$ 350,00</span>
+        <i class='bx bx-shopping-bag add-carrinho' ></i>
+      </div>
+      <!--box 4-->
+      <div class="produto-box">
+        <img src="./img/nikee.jpg" alt="nike" class="produtos">
+        <h2 class="produto-titulo">Nike</h2>
+        <span class="preco">R$ 299,00</span>
+        <i class='bx bx-shopping-bag add-carrinho' ></i>
+      </div>
+      <!--box 5-->
+      <div class="produto-box">
+        <img src="./img/tenis.preto.jpg" alt="tenis-preto" class="produtos">
+        <h2 class="produto-titulo">Mizuno</h2>
+        <span class="preco">R$ 230,00</span>
+        <i class='bx bx-shopping-bag add-carrinho' ></i>
+      </div>
+      <!--box 6-->
+      <div class="produto-box">
+        <img src="./img/tenis.masculino.jpg" alt="tenis-preto" class="produtos">
+        <h2 class="produto-titulo">Adidas 4</h2>
+        <span class="preco">R$ 280,00</span>
+        <i class='bx bx-shopping-bag add-carrinho' ></i>
+      </div>
+   </div>
+</section>
+</body>
+<script src="./js/script.js"></script>
+
+</html>
